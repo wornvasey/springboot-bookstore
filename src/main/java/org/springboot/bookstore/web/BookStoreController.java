@@ -48,7 +48,7 @@ public class BookStoreController {
      */
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     public String postBook(@ModelAttribute Book book) {
-        bookService.insertByBook(book);
+        bookService.insert(book);
         return REDIRECT_TO_BOOK_URL;
     }
 

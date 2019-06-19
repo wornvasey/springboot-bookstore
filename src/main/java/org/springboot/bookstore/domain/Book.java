@@ -31,7 +31,7 @@ public class Book implements Serializable {
     /**
      * 出版日期
      */
-    private Date date;
+//    private Date date;
 
     public Long getId() {
         return id;
@@ -65,11 +65,11 @@ public class Book implements Serializable {
         this.introduction = introduction;
     }
 
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
+//    public Date getDate() {
+//        return date;
+//    }
+//
+//    public void setDate(Date date) {
+//        this.date = date;
+//    }
 }
