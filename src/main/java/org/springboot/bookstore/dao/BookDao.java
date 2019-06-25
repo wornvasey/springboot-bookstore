@@ -8,9 +8,9 @@ import java.util.List;
  * BookDao 接口类
  */
 public interface BookDao {
-    void insert(Book book);
-    Book delete(Long id);
-    Book update(Book book);
+    int insert(Book book);
+    int delete(Long id);
+    int update(Book book);
     Book findById(Long id);
     List<Book> findAll();
 }

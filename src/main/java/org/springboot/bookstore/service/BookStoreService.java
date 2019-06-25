@@ -8,35 +8,14 @@ import java.util.List;
  * Book 业务接口层
  */
 public interface BookStoreService {
-    /**
-     * 新增 Book
-     *
-     * @param book {@link Book}
-     */
-    void insert(Book book);
 
-    /**
-     * 删除 Book
-     *
-     * @param id 编号
-     */
-    Book delete(Long id);
+    int insert(Book book);
 
-    /**
-     * 更新 Book
-     *
-     * @param book {@link Book}
-     */
-    Book update(Book book);
+    int delete(Long id);
 
-    /**
-     * 获取 Book
-     *
-     * @param id 编号
-     */
+    int update(Book book);
+
     Book findById(Long id);
-    /**
-     * 获取所有 Book
-     */
+
     List<Book> findAll();
 }

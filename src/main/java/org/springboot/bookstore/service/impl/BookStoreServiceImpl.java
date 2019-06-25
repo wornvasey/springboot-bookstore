@@ -25,21 +25,21 @@ public class BookStoreServiceImpl implements BookStoreService {
     private static Map<Long, Book> BOOK_DB = new HashMap<>();
 
     @Override
-    public void insert(Book book) {
-        bookDao.insert(book);
+    public int insert(Book book) {
+        return bookDao.insert(book);
 //        book.setId(BOOK_DB.size() + 1L);
 //        BOOK_DB.put(book.getId(), book);
 //        return book;
     }
 
     @Override
-    public Book delete(Long id) {
+    public int delete(Long id) {
         return bookDao.delete(id);
 //        return BOOK_DB.remove(id);
     }
 
     @Override
-    public Book update(Book book) {
+    public int update(Book book) {
         return bookDao.update(book);
 //        BOOK_DB.put(book.getId(), book);
 //        return book;
