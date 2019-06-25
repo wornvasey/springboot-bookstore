@@ -1,4 +1,4 @@
-package org.springboot.bookstore.domain;
+package org.springboot.bookstore.pojo;
 
 import java.io.Serializable;
 import java.util.Date;

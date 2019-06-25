@@ -1,6 +1,6 @@
 package org.springboot.bookstore.service;
 
-import org.springboot.bookstore.domain.Book;
+import org.springboot.bookstore.pojo.Book;
 
 import java.util.List;
 

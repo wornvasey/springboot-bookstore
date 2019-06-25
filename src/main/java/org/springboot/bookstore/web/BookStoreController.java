@@ -1,6 +1,6 @@
 package org.springboot.bookstore.web;
 
-import org.springboot.bookstore.domain.Book;
+import org.springboot.bookstore.pojo.Book;
 import org.springboot.bookstore.service.BookStoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

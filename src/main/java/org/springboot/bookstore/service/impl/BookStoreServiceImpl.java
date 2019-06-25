@@ -1,7 +1,7 @@
 package org.springboot.bookstore.service.impl;
 
 import org.springboot.bookstore.dao.BookDao;
-import org.springboot.bookstore.domain.Book;
+import org.springboot.bookstore.pojo.Book;
 import org.springboot.bookstore.service.BookStoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
